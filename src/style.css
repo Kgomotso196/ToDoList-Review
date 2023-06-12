@@ -1,0 +1,140 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #a7b1c8;
+}
+
+body {
+  padding: 10% 20% 10% 20%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  padding-left: 0.2rem;
+  border: 1px solid #ddd;
+  justify-content: space-between;
+}
+
+.second-holder {
+  padding-right: 5px;
+}
+
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+#text-section {
+  width: 90%;
+  border: none;
+  font-size: 16px;
+  font-style: italic;
+  align-items: center;
+}
+
+.edit-class {
+  width: 80%;
+  border: none;
+  font-size: 16px;
+  font-style: italic;
+  align-items: center;
+  background-color: bisque;
+  height: 40px;
+}
+
+input[type='image'] {
+  background-repeat: no-repeat;
+  width: 1rem;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+#clear-all {
+  height: 50px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(57, 48, 48, 0.2), 0 5px 20px 0 rgb(0 0 0 / 0%);
+}
+
+form {
+  width: 100%;
+}
+
+h3 {
+  margin-right: 5px;
+  flex-basis: 90%;
+  font-size: 15px;
+  font-weight: 200;
+  padding: 20px;
+}
+
+li {
+  font-size: 16px;
+  border: 1px solid #0e2147;
+  padding: 7px;
+  color: black;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+}
+
+#for-button {
+  background: url('https://img.icons8.com/ios/20/000000/enter-2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  border: none;
+  height: 30px;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.editButton {
+  background-image: url('https://img.icons8.com/ios/25/000000/edit-column.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  border: none;
+  height: 30px;
+  background-color: #fff;
+}
+
+.deleteButton {
+  background-image: url('https://img.icons8.com/fluency-systems-regular/30/000000/delete.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  border: none;
+  height: 30px;
+  background-color: #fff;
+}
+
+#first-section {
+  box-shadow: 10px 10px 5px rgb(158, 149, 149);
+}
